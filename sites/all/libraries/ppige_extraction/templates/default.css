@@ -1,0 +1,253 @@
+/****************************************
+  MAIN STYLES
+*****************************************/
+
+/* 
+ * DEFAULTS FOR BODY AND TABLES 
+
+BODY {
+    font-size : 11px;
+    font-family: arial,tahoma,verdana,helvetica;
+    color: #000000;
+    background-color : #FFFFFF;
+    cursor: default;
+    overflow: hidden;
+    margin-right:0px;
+    margin-left:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+     
+BGCLG {
+    background-color: #FFFFFF;
+}
+ */
+.TITLE {
+    color: #006680;
+    font-size : 15px;
+    font-family: arial,tahoma,verdana,helvetica;
+    font-weight: bold;
+}
+
+.MENU {
+    color: #006680;
+    font-size : 11px;
+    font-family: arial,tahoma,verdana,helvetica;
+    font-weight: bold;
+}
+
+TH {
+    font-size: 11px;
+    font-family: arial,tahoma,verdana,helvetica;
+    text-align: left;
+    color: #000000;
+}
+
+TD {
+    font-size: 11px;
+    font-family: arial,tahoma,verdana,helvetica;
+    text-align: left;
+    color: #272727;
+}
+
+A {
+    color:#1B6AA3;
+    font:11px arial,tahoma,verdana,helvetica;
+    text-decoration: none;
+}
+
+A:hover {
+    text-decoration: underline;
+    /*background-color: B1BBC5;*/
+}
+
+IMG {
+    border-width: 0px;
+}
+
+/*
+ * Paliers
+*/
+.PALIER {
+    font-size: 10px;
+    font-family: arial,tahoma,verdana,helvetica;
+    text-align: left;
+    color: #006680;
+}
+
+
+.FILTREDEP {
+    border: none;
+    background-color:none;
+}
+
+
+/* 
+ * TOOL BUTTONS IN TOOLBAR.PHTML 
+ * Used for mouseDown/Up and mouseOver/Out actions 
+ */
+.TOOLBAR {
+    color: #000000;    
+}
+
+.TOOLBARTD{
+    /* Jacques 16/03/06 */
+    /* padding: 2px;    */
+    /*border:   1px solid #B1BBC5;*/
+}
+
+.TOOLBARTD_ON{
+    /* Jacques 16/03/06                  */
+    /* padding: 1px;                     */
+    /* background-color: #CCCCCC;        */ /*#336699;*/  
+    /* border-top:    1px solid #666666; */
+    /* border-bottom: 1px solid #F0F0F0; */
+    /* border-right:  1px solid #F0F0F0; */
+    /* border-left:   1px solid #666666; */
+}                
+
+.TOOLBARTD_OVER{
+    /* Jacques 16/03/06                  */
+    /* padding: 1px;                     */
+    /* border-top:    1px solid #F0F0F0; */
+    /* border-bottom: 1px solid #666666; */
+    /* border-right:  1px solid #666666; */
+    /* border-left:   1px solid #F0F0F0; */
+}
+
+
+.TOOLBAR IMG {
+    border: 0px;
+}
+
+#tsep {
+    /*padding-left: 6px;*/
+    text-align: center;
+} 
+
+
+.TOPBOTTOM {
+    background-color: #999999;
+}
+
+/* 
+ * TOOL FRAME AROUND MAP AND TOC
+ */
+.TOOLFRAME, .TOC {
+    /*background-color: #CCCCCC;*/ /*#205DA9;#B1BBC5;#C0C0C0;*/
+    background-color:#FFFFFF;  /*006680;*/
+    color: #000000;
+}
+
+.TOC {
+    /*background-color: #CCCCCC;*/ /*#205DA9;#B1BBC5;#C0C0C0;*/
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+.TOOLFRAME TD {
+    font-size: 10px;
+    color: #000000;    
+    vertical-align:middle;
+}
+
+.TOOLFRAME vc{
+    vertical-align:baseline;
+}
+
+/* FRAME FOR HEADER AND FOOTER */
+.FRAME1 {
+    color: #006680;
+    font-size: 11px;
+    background-color: #FFFFFF;   /*#FFFFFF;#336699;*/
+    border-top:    0px solid #E0E0E0;
+}
+
+
+/* HEADING, e.g. in top frame*/
+.HEADING1 {
+    color: #FFFFFF;
+    text-align:left;
+    font-size:16px;
+    font-weight:bold;
+}
+
+
+
+/* 
+ * FORM ELEMENTS 
+ */
+INPUT { 
+    font-size : 12px;
+    color : #205DA9;
+    width : 200px;
+}
+
+SELECT {
+    background-color : #EBEBEB;
+    border-color :  #003366;
+    border-width : 0px; 
+    width : 100px;
+    font-size : 12px;
+}
+
+
+.TOOLFRAME input, .FRAME1 input {
+    background-color : #FFFFFF;
+    border-color : #006680;
+    border-style : solid;
+    border-width : 1px;
+    font-size : 12px;
+}
+
+
+/* Input Button colors on/off */
+.TOOLFRAME input.button_on, .FRAME1 input.button_on {
+    background-color : #006680;
+    color: #FFFFFF;
+    border-color: #205DA9;  /*#FFFFFF;*/
+}
+
+.TOOLFRAME input.button_off, .FRAME1 input.button_off {
+    background-color : #EBEBEB;
+}
+
+
+
+
+/* ADDITIONAL TABLE TD */
+.TDAL{text-align:left;}
+.TDAR{text-align:right;}
+.TDAC{text-align:center;}
+
+.INPUTINFOBULLLE {
+    font-size : 12px;
+    color : #205DA9;
+    width : 20px;
+}
+
+.communes A {
+    color: #006680;
+    text-align: left;
+    text-decoration: none;
+}
+
+.communes A:hover {
+    text-decoration: none;
+}
+
+.communes A:visited {
+    color: #006680;
+}
+
+.loading {
+   position:absolute;
+   left: 50%; 
+   top: 50%;
+   width: 400px;
+   height: 20px;
+   margin-left: -200px;
+   margin-top: -10px;
+   border: 0px;
+   color: #006680;
+}

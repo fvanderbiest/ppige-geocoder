@@ -1,0 +1,570 @@
+/****************************************
+  popupLayers
+*****************************************/
+
+.plHeader {
+  color:#187585;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-weight:bold;
+}
+
+.plTableDisponibles {
+  border-collapse:collapse;
+}
+
+.plTdDisponibles {
+  border-style:solid;
+  border-width:1px;
+  border-color:#187585;
+  
+  color:#187585;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-align:center;
+  font-weight:bold;
+}
+
+.plSelectDisponibles {
+  border-width:0;
+  border-color:#f7fafb;
+  background-color:#ffffff;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:450px;
+}
+
+.plOptCatDisponibles {
+  font-weight:bold;
+  color:#187585;
+}
+
+.plOptGrpDisponibles {
+  color:#000000;
+}
+
+.plTableRetenues {
+  border-collapse:collapse;
+}
+
+.plTdRetenues {
+  border-style:solid;
+  border-width:1px;
+  border-color:#CC0000;
+  background-color:#ffffff;
+  color:#CC0000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-align:center;
+  font-weight:bold;
+}
+
+.plSelectRetenues {
+  border-width:0;
+  border-color:#f7fafb;
+  background-color:#ffffff;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:450px;
+}
+
+.plOptCatRetenues {
+  font-weight:bold;
+  color:#CC0000;
+}
+
+.plOptGrpRetenues {
+  color:#000000;
+}
+
+/****************************************
+  popupExport
+*****************************************/
+
+A.peA {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:none;
+}
+
+A.peA:hover {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:none;
+}
+
+A.peA2 {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:none;
+  color:#0000CC;
+}
+
+A.peA2:hover {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:underline;
+  color:#0000CC;
+}
+
+TD.peTD {
+  color:#000000;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-size:11px;
+}
+
+.peRadio {
+  width:20px;
+}
+
+.peSelectEchelle {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-size:11px;
+  width:70px;
+}
+
+.peSelectDPI {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-size:11px;
+  width:70px;
+}
+
+/****************************************
+  popupPrint
+*****************************************/
+
+A.ppA {
+	font-size:11px;
+  text-decoration:none;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+A.ppA:hover {
+	font-size:11px;
+  text-decoration:none;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.ppHeader {
+  background-color:#FFFFFF;
+  color:#000000;
+  font-size:11px;
+  font-weight:bold;
+  text-align:center;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.ppAttr {
+  background-color:#FFFFFF;
+  color:#000000;
+  font-size:11px;
+  text-align:left;
+  vertical-align:top;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.ppSelectEchelle {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:100px;
+}
+
+.ppSelectOrientation {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:100px;
+}
+
+.ppSelectTaille {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:100px;
+}
+
+.ppInputTextTitre {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:300px;
+}
+
+.ppInputTextSousTitre {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:300px;
+}
+
+.ppTextAreaCommentaires {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  
+  color:#000000;
+  width:300px;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  height:100px;
+}
+
+.ppCheckBox {
+  width:20px;
+}
+
+.ppRadio {
+  width:20px;
+}
+
+/****************************************
+  popupMesExtract
+*****************************************/
+
+A.pmeBouton {
+	font-size:11px;
+  text-decoration:none;
+  font-family:arial,tahoma,verdana,helvetica;
+  border-style:solid;
+  border-width:1px;
+  border-color:#187585;
+  padding-left:4px;
+  padding-right:4px;
+  /*opacity: 0.4 ;*/
+}
+
+A.pmeBouton:hover {
+	font-size:11px;
+  text-decoration:none;
+  font-family:arial,tahoma,verdana,helvetica;
+  border-style:solid;
+  border-width:1px;
+  border-color:rgb(210,61,77);
+  padding-left:4px;
+  padding-right:4px;
+}
+
+.pmeTableExtract {
+  border:none;
+}
+
+.pmeCellPM {
+  width:10px;
+}
+
+.pmeCellId {
+  width:50px;
+}
+
+.pmeCellDate {
+  width:100px;
+}
+
+.pmeCellEtat {
+  width:130px;
+}
+
+.pmeCellOrganisme {
+  width:177px;
+}
+
+.pmeCellContact {
+  width:165px;
+}
+
+td.pmeTitre {
+  padding-left:2px;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-weight:bold;
+  color:#FFF;
+}
+
+.pmeItem {
+  padding:2px;
+  background-color:#c0c0c0;    
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTableDetailExtract {  
+  border:none;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:100%;
+}
+
+.pmeTdDetailExtract {
+  padding-left:4px;
+}
+
+.pmeTrDetailExtractBtn {
+  height:30px;
+}
+
+.pmeTxtTitreCarte {  
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtZoneGeo {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;  
+}
+
+.pmeTxtOrganisme {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;  
+}
+
+.pmeTxtComm {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;  
+}
+
+.pmeTxtProj {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtSmallFic {
+  border:none;
+  width:100px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtFic {
+  border:none;
+  width:380px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtFormat {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtEmail {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtBase {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtGroup {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  *height: 60px;
+}
+
+.pmeTxtError {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtAddresse {
+  border:none;
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtDateEnvoiDVD {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  width:60px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeTxtNumCourrir {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  width:110px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeDroite {
+  width:533px;
+  color:rgb(32,93,169);
+  background-color:rgb(241,251,251);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+}
+
+.pmeSelectOuiNon {
+  border-style:solid;
+  border-color:#7f9db9;
+  border-width:1px;
+  background-color:rgb(241,251,251);
+  color:rgb(32,93,169);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:43px;
+}
+
+/****************************************
+  popupExtract
+*****************************************/
+
+A.pexA {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:none;
+}
+
+A.pexA:hover {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:none;
+}
+
+A.pexB {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:underline;
+}
+
+A.pexB:hover {
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  text-decoration:underline;
+}
+
+.pexSection {
+  background-color:#FFFFFF;
+  color:#000000;
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-weight:bold;
+}
+
+.pexCategorie {
+  color:rgb(24,117,133);
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  font-weight:bold;
+  margin-top:5px; margin-left:5px;
+}
+
+.pexRadio {
+  width:20px;
+  position:relative;
+  top:3px;
+}
+
+.pexSelect {
+  border-width:0;
+  border-color:#f7fafb;
+  
+  font-size:11px;
+  font-family:arial,tahoma,verdana,helvetica;
+  width:200px;
+}
+
+.pexSourceEnabled {
+  margin-left:25px; 
+  width:350px; 
+  height:100px; 
+  border:1px solid black; 
+  overflow:auto;
+  
+}
+
+.pexSourceDisabled {
+  margin-left:25px; 
+  width:350px; 
+  height:100px; 
+  border:1px solid black; 
+  overflow:auto;
+  background-color:#F9F8F3;
+}

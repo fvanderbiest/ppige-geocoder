@@ -1,0 +1,17 @@
+<OGRVRTDataSource>
+	<OGRVRTLayer name="vector">
+		<SrcLayer>adresses_trouvees</SrcLayer>
+		<SrcDataSource>{csv_file}</SrcDataSource>
+		<GeometryType>wkbPoint</GeometryType>
+		<SrcSRS>EPSG:{projection}</SrcSRS>
+		<TargetSRS>EPSG:{projection}</TargetSRS>
+		<GeometryField encoding="PointFromColumns" x="X" y="Y"/>
+		<Field name="NUMERO_RUE" src="NUMERO_RUE" type="Integer" />
+		<Field name="NOM_RUE" src="NOM_RUE" type="String" />
+		<Field name="COMMUNE" src="COMMUNE" type="String" />
+		<Field name="FIABILITE" src="FIABILITE" type="Real" />
+		<Field name="GID_BDAD" src="GID_BDAD" type="String" />
+		{name_field}
+		{desc_field}
+	</OGRVRTLayer>
+</OGRVRTDataSource>
